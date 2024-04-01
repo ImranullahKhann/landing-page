@@ -118,7 +118,7 @@ button {
 
 .three {
     background-color: #E5E7EB;
-    height: 500px;
+    flex-basis: 500px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -139,7 +139,36 @@ button {
     margin-right: 260px;
 }
 
+.four {
+    flex-basis: 400px;
+    box-sizing: border-box;
+    padding: 100px 150px;
+}
+
+.blue {
+    color: #F9FAF8;
+    height: 150px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.blue button {
+    border: 2px solid white;
+}
+
+.text-one {
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.text-two {
+    font-size: 12px;
+}
+
 .footer {
     justify-content: center;
     align-items: center;
+    flex-basis: 100px;
 }
