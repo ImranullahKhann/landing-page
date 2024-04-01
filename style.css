@@ -118,12 +118,25 @@ button {
 
 .three {
     background-color: #E5E7EB;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .quote {
     font-size: 36px;
     font-style: italic;
     color: #1F2937;
+    max-width: 850px;
+    align-self: center;
+}
+
+.source {
+    font-weight: bold;
+    font-size: 24px;
+    align-self: flex-end;
+    margin-right: 260px;
 }
 
 .footer {
