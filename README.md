@@ -1,4 +1,4 @@
 # landing-page
 
-# Exercise of Odin Project
+## Exercise of Odin Project
 
